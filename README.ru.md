@@ -8,9 +8,11 @@
 [Tesseract OCR](https://github.com/tesseract-ocr/tesseract), который будет распознавать текст с изображения. 
 Приложение будет кроссплатформенным для Windows и Linux.
 
-## Зависимости
-Необходимые библиотеки для работы программы.
- - **PyQt5** - для отображения интерфейса.
+## О зависимостях
+### Библиотеки
+ - **PyQt5** - отображения интерфейса.
+ - **pytesseract** - распознавание текста по изображению.
+ - **opencv-python** - работа с изображениями.
 
 ### Установка
 
@@ -18,7 +20,19 @@
 ```
 pip3 install PyQt5
 ```
+```
+pip3 install pytesseract
+```
+```
+pip3 install opencv-python
+```
 #### Windows
 ```
 pip install PyQt5
+```
+```
+pip install pytesseract
+```
+```
+pip install opencv-python
 ```
