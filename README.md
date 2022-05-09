@@ -7,9 +7,14 @@ Read this in other languages: [En](https://github.com/Mark-TinZ/Stext/blob/main/
 **Stext** — a program that should recognize text from the screen or images on the screen. To implement the project, I use [Tesseract OCR](https://github.com/tesseract-ocr/tesseract), which will recognize text from an image. 
 The application will be cross-platform for Windows and Linux.
 
-## Dependencies
-Necessary libraries for the program to work.
-- **PyQt5** - to display the interface.
+
+
+## About dependencies
+
+### Libraries
+ - **PyQt5** - interface displays.
+ - **pytesseract** - text recognition from an image.
+ - **opencv-python** - working with images.
 
 ### Installation
 
@@ -17,7 +22,19 @@ Necessary libraries for the program to work.
 ```
 pip3 install PyQt5
 ```
+```
+pip3 install pytesseract
+```
+```
+pip3 install opencv-python
+```
 #### Windows
 ```
 pip install PyQt5
+```
+```
+pip install pytesseract
+```
+```
+pip install opencv-python
 ```
