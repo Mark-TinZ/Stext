@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>270</width>
-    <height>306</height>
+    <height>311</height>
    </rect>
   </property>
   <property name="font">
@@ -73,9 +73,6 @@
     <property name="title">
      <string>File</string>
     </property>
-    <property name="icon">
-     <iconset theme="oxygen"/>
-    </property>
     <addaction name="actionOpen"/>
     <addaction name="actionSettings"/>
     <addaction name="separator"/>
@@ -104,10 +101,16 @@
    <property name="text">
     <string>Open</string>
    </property>
+   <property name="shortcut">
+    <string>Ctrl+O</string>
+   </property>
   </action>
   <action name="actionQuit">
    <property name="text">
     <string>Quit</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Q</string>
    </property>
   </action>
   <action name="actionabout_the_program">

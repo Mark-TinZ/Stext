@@ -9,6 +9,7 @@
 
 
 from PyQt5 import QtCore, QtGui, QtWidgets
+from PyQt5.QtCore import QCoreApplication
 
 
 class Ui_MainWindow(object):
@@ -42,8 +43,6 @@ class Ui_MainWindow(object):
         self.menubar.setGeometry(QtCore.QRect(0, 0, 270, 19))
         self.menubar.setObjectName("menubar")
         self.menuFile = QtWidgets.QMenu(self.menubar)
-        icon = QtGui.QIcon.fromTheme("oxygen")
-        self.menuFile.setIcon(icon)
         self.menuFile.setObjectName("menuFile")
         self.menuHelp = QtWidgets.QMenu(self.menubar)
         self.menuHelp.setObjectName("menuHelp")
@@ -90,7 +89,9 @@ class Ui_MainWindow(object):
         self.menuHelp.setTitle(_translate("MainWindow", "Help"))
         self.menuInfo.setTitle(_translate("MainWindow", "Info"))
         self.actionOpen.setText(_translate("MainWindow", "Open"))
+        self.actionOpen.setShortcut(QCoreApplication.translate("MainWindow", u"Ctrl+O", None))
         self.actionQuit.setText(_translate("MainWindow", "Quit"))
+        self.actionQuit.setShortcut(QCoreApplication.translate("MainWindow", u"Ctrl+Q", None))
         self.actionabout_the_program.setText(_translate("MainWindow", "About the program"))
         self.actionAbout_Stext.setText(_translate("MainWindow", "About Stext"))
         self.actionAbout_image_editor.setText(_translate("MainWindow", "About image editor"))
