@@ -11,6 +11,9 @@ The application will be cross-platform for Windows and Linux.
 
 ## About dependencies
 
+### Version Python
+Python 3.10 and higher
+
 ### Libraries
  - **PyQt5** - interface displays.
  - **pytesseract** - text recognition from an image.
