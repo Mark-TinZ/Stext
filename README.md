@@ -21,7 +21,8 @@ Python 3.10 and higher
 
 ### Installation
 
-#### Linux
+#### Linux - Ubuntu 
+##### Installing Libraries
 ```
 pip3 install PyQt5
 ```
@@ -31,7 +32,15 @@ pip3 install pytesseract
 ```
 pip3 install opencv-python
 ```
+##### Installing the necessary programs
+```
+sudo apt update
+```
+```
+sudo apt install tesseract-ocr
+```
 #### Windows
+##### Installing Libraries
 ```
 pip install PyQt5
 ```
@@ -41,3 +50,8 @@ pip install pytesseract
 ```
 pip install opencv-python
 ```
+##### Installing the necessary programs
+[Download Tesseract OCR](https://tesseract-ocr.github.io/tessdoc/Downloads.html)
+### Tesseract OCR
+You can download the necessary languages yourself, I will use English.
+Learn more about how to download languages for Tesseract on the [page](https://github.com/tesseract-ocr/tesseract/blob/main/doc/tesseract.1.asc#languages-and-scripts).
