@@ -9,10 +9,13 @@ The application will be cross-platform for Windows and Linux.
 
 
 
-## About dependencies
+## About the program
 
 ### Version Python
 Python 3.10 and higher
+
+### TODO
+ - Creating custom functions for correct table recognition
 
 ### Libraries
  - **PyQt5** - interface displays.
