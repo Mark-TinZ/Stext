@@ -149,10 +149,10 @@ class Ui_MainWindow(object):
         self.O_theam.clicked['bool'].connect(self.R_spin.setEnabled) # type: ignore
         self.O_theam.clicked['bool'].connect(self.B_spin.setEnabled) # type: ignore
         self.O_theam.clicked['bool'].connect(self.G_spin.setEnabled) # type: ignore
-        self.L_theam.clicked['bool'].connect(self.B_spin.setDisabled) # type: ignore
         self.D_theam.clicked['bool'].connect(self.G_spin.setDisabled) # type: ignore
         self.D_theam.clicked['bool'].connect(self.R_spin.setDisabled) # type: ignore
         self.D_theam.clicked['bool'].connect(self.B_spin.setDisabled) # type: ignore
+        self.L_theam.clicked['bool'].connect(self.B_spin.setDisabled) # type: ignore
         self.L_theam.clicked['bool'].connect(self.G_spin.setDisabled) # type: ignore
         self.L_theam.clicked['bool'].connect(self.R_spin.setDisabled) # type: ignore
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
