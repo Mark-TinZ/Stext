@@ -58,5 +58,3 @@ pip install opencv-python
 ### Tesseract OCR
 You can download the necessary languages yourself, I will use English.
 Learn more about how to download languages for Tesseract on the [page](https://github.com/tesseract-ocr/tesseract/blob/main/doc/tesseract.1.asc#languages-and-scripts).
-
-123123123
