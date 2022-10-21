@@ -1,6 +1,6 @@
 # Stext
 
-The task of this program is to recognize text from the screen or image.
+The task of this program is to recognize text from the screen or image!
 
 Read this in other languages: [En](https://github.com/Mark-TinZ/Stext/blob/main/README.md), [Ru](https://github.com/Mark-TinZ/Stext/blob/main/README.ru.md);
 
